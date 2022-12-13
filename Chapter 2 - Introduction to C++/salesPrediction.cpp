@@ -3,6 +3,7 @@
 // division will generate if the company has $8.6 million in sales this year.
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -10,6 +11,6 @@ int main()
     double eastCoastPercentage = 0.58;
     int companySales = 8600000;
 
-    cout << "The East Coast sales division will generate $"
+    cout << "The East Coast sales division will generate $" << fixed << setprecision(2)
          << eastCoastPercentage * companySales << " in revenue." << endl;
 }
