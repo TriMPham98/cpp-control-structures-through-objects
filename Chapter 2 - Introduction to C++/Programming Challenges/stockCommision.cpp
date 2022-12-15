@@ -5,3 +5,17 @@
 // - The amount of the commission.
 // - The total amount paid (for the stock plus the commission).
 
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    double numShares = 750;
+    double pricePerShare = 35.00;
+    double commission = 0.02;
+
+    cout << "Stock price only: $" << fixed << setprecision(2) << numShares * pricePerShare << endl;
+    cout << "Commission: $ " << fixed << setprecision(2) << numShares * pricePerShare * commission << endl;
+    cout << "Total amount paid: $" << fixed << setprecision(2) << (numShares * pricePerShare) + (numShares * pricePerShare * commission) << endl;
+}
