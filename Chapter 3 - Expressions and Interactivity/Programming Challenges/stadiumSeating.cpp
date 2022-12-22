@@ -5,3 +5,22 @@
 // of income generated from ticket sales. Format your dollar amount
 // in fixed-point notation, with two decimal places of precision,
 // and be sure the decimal point is always displayed.
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    const double CLASS_A_PRICE = 15, CLASS_B_PRICE = 12, CLASS_C_PRICE = 9;
+    double numTixA, numTixB, numTixC;
+
+    cout << "This program calculates the income of a softball game based on the number of tickets per class." << endl;
+    cout << "How many class A tickets were sold at $15? ";
+    cin >> numTixA;
+    cout << "How many class B tickets were sold at $12? ";
+    cin >> numTixB;
+    cout << "How many class C tickets were sold at $9? ";
+    cin >> numTixC;
+}
