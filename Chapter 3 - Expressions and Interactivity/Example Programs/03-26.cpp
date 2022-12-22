@@ -20,6 +20,7 @@ int main()
     unsigned seed = time(0);
 
     // Seed the random number generator
+    // This means you generate a different sequence of random numbers each time program is run
     srand(seed);
 
     cout << "Rolling the dice..." << endl;
