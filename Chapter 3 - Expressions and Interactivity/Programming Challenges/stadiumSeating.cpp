@@ -14,7 +14,9 @@ using namespace std;
 int main()
 {
     const double CLASS_A_PRICE = 15, CLASS_B_PRICE = 12, CLASS_C_PRICE = 9;
-    double numTixA, numTixB, numTixC;
+
+    int numTixA, numTixB, numTixC;
+    double totalIncome;
 
     cout << "This program calculates the income of a softball game based on the number of tickets per class." << endl;
     cout << "How many class A tickets were sold at $15? ";
@@ -23,4 +25,10 @@ int main()
     cin >> numTixB;
     cout << "How many class C tickets were sold at $9? ";
     cin >> numTixC;
+
+    totalIncome = (numTixA * CLASS_A_PRICE) + (numTixB * CLASS_B_PRICE) + (numTixC * CLASS_C_PRICE);
+    cout << fixed << setprecision(2);
+    cout << "The total income generated from ticket sales are $" << totalIncome << endl;
+
+    return 0;
 }
