@@ -19,5 +19,19 @@ int main()
     double avg;
 
     cout << "This program calculates the average rainfall for three months." << endl;
-    
+    cout << "Enter the name of month 1 and its rainfall in inches:" << endl;
+    cin >> month1;
+    cin >> rainMonth1;
+    cout << "Enter the name of month 2 and its rainfall in inches:" << endl;
+    cin >> month2;
+    cin >> rainMonth2;
+    cout << "Enter the name of month 3 and its rainfall in inches:" << endl;
+    cin >> month3;
+    cin >> rainMonth3;
+
+    avg = (rainMonth1 + rainMonth2 + rainMonth3) / 3;
+    cout << fixed << setprecision(2);
+    cout << "The average rainfall for " << month1 << ", " << month2 << ", and " << month3 << " is " << avg << " inches." << endl;
+
+    return 0;
 }
