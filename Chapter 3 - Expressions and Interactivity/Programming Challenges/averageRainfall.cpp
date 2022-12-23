@@ -13,5 +13,5 @@ using namespace std;
 
 int main()
 {
-
+    cout << "This program calculates the average rainfall for three months." << endl;
 }
