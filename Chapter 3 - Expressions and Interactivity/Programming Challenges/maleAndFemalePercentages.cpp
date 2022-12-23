@@ -16,5 +16,20 @@ using namespace std;
 
 int main()
 {
+    int numMales, numFemales, totalRegistered;
 
+    cout << "This program calculates and displays the percentage of males and females in the class." << endl;
+    cout << "How many males registered for this class? " << endl;
+    cin >> numMales;
+    cout << "How many females registered for this class?" << endl;
+    cin >> numFemales;
+
+    totalRegistered = numMales + numFemales;
+
+    cout << "The percentage of males who registered in the class of "
+         << totalRegistered << " is " << static_cast<double>(numMales) / totalRegistered * 100 << "%." << endl;
+    cout << "The percentage of females who registered in the class of "
+         << totalRegistered << " is " << static_cast<double>(numFemales) / totalRegistered * 100 << "%." << endl;
+
+    return 0;
 }
