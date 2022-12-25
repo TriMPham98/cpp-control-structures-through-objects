@@ -16,5 +16,24 @@ using namespace std;
 
 int main()
 {
+    double cupsSugar48Cookies = 1.5;
+    double cupsButter48Cookies = 1;
+    double cupsFlour48Cookies = 2.75;
+    int userNumCookies;
+
+    cout << "This program calculates the amount of ingredients required for the user's desired cookie count." << endl;
+    cout << "How many cookies do you want to bake?" << endl;
+    cin >> userNumCookies;
+
+    cout << fixed << setprecision(3);
+    cout << "You will need " << (cupsSugar48Cookies * (userNumCookies / 48.0))
+         << " cups of sugar." << endl;
+
+    cout << "You will need " << (cupsButter48Cookies * (userNumCookies / 48.0))
+         << " cups of butter." << endl;
+
+    cout << "You will need " << (cupsFlour48Cookies * (userNumCookies / 48.0))
+         << " cups of flour." << endl;
+
     return 0;
 }
