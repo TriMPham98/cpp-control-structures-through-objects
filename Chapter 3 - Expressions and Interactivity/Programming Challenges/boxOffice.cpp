@@ -22,4 +22,11 @@ using namespace std;
 
 int main()
 {
+    const double ADULT_TIX_PRICE = 10.00;
+    const double CHILD_TIX_PRICE = 6.00;
+
+    string movieName;
+    int adultTix, childTix;
+
+    // cout << "This program shows the "
 }
