@@ -29,5 +29,10 @@ int main()
     int adultTix, childTix;
 
     cout << "This program shows the financial performance of a theater." << endl;
-    
+    cout << "What is the movie name?" << endl;
+    getline(cin, movieName);
+    cout << "How many adult tickets were sold? ";
+    cin >> adultTix;
+    cout << "How many child tickets were sold? ";
+    cin >> childTix;
 }
