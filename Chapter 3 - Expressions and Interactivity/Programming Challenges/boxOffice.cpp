@@ -28,5 +28,6 @@ int main()
     string movieName;
     int adultTix, childTix;
 
-    // cout << "This program shows the "
+    cout << "This program shows the financial performance of a theater." << endl;
+    
 }
