@@ -27,6 +27,7 @@ int main()
 
     string movieName;
     int adultTix, childTix;
+    double revenue, grossBoxOfficeProfit, netBoxOfficeProfit, distributorAmount;
 
     cout << "This program shows the financial performance of a theater." << endl;
     cout << "What is the movie name?" << endl;
@@ -35,4 +36,7 @@ int main()
     cin >> adultTix;
     cout << "How many child tickets were sold? ";
     cin >> childTix;
+
+    revenue = (adultTix * ADULT_TIX_PRICE) + (childTix * CHILD_TIX_PRICE);
+
 }
