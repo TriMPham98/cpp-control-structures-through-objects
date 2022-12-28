@@ -38,5 +38,16 @@ int main()
     cin >> childTix;
 
     revenue = (adultTix * ADULT_TIX_PRICE) + (childTix * CHILD_TIX_PRICE);
+    grossBoxOfficeProfit = revenue * 0.2;
+    netBoxOfficeProfit = grossBoxOfficeProfit * 0.2;
+    distributorAmount = grossBoxOfficeProfit - netBoxOfficeProfit;
 
+    cout << "Movie Name: " << movieName << endl;
+    cout << "Adult Tickets Sold: " << adultTix << endl;
+    cout << "Child Tickets Sold: " << childTix << endl;
+    cout << fixed << showpoint << setprecision(2);
+    cout << "Gross Box Office Profit: $" << grossBoxOfficeProfit << endl;
+    cout << "Net Box Office Profit: $" << netBoxOfficeProfit << endl;
+    cout << "Amount Paid to Distributor: $" << distributorAmount << endl;
+    
 }
