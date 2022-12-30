@@ -5,8 +5,10 @@
 // It should then calculate and display the number of widgets stacked on the pallet.
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
 {
+    const double widgetWeight = 12.5;
 }
