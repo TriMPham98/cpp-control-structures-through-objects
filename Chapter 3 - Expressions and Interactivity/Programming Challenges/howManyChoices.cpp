@@ -10,5 +10,16 @@ using namespace std;
 
 int main()
 {
+    int cookiesPerBag = 30;
+    int servingsPerBag = 10;
+    int caloriesPerServing = 300;
+    int userCookies, caloriesConsumed;
+
+    cout << "This program reports how many calories were consumed." << endl;
+    cout << "How many cookies did you eat?" << endl;
+    cin >> userCookies;
+
+    caloriesConsumed = userCookies * caloriesPerServing / 3;
+    cout << "Calories consumed: " << caloriesConsumed << endl;
     return 0;
 }
