@@ -10,5 +10,16 @@ using namespace std;
 
 int main()
 {
-    const double widgetWeight = 12.5;
+    double palletWeight, totalWeight, widgetWeight = 12.5, numberOfWidgets;
+
+    cout << "Enter the weight of the pallet: ";
+    cin >> palletWeight;
+    cout << "Enter the total weight of the pallet with the widgets: ";
+    cin >> totalWeight;
+
+    numberOfWidgets = (totalWeight - palletWeight) / widgetWeight;
+
+    cout << "The number of widgets on the pallet is " << numberOfWidgets << endl;
+
+    return 0;
 }
