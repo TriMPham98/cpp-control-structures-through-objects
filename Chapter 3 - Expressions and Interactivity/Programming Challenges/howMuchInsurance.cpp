@@ -4,3 +4,12 @@
 // a program that asks for the user to enter the replacement cost
 // of a building, then displays the minimum amount of insurance
 // he or she should buy for the property.
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+}
