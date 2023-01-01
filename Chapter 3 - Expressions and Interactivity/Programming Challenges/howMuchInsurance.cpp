@@ -12,4 +12,8 @@ using namespace std;
 
 int main()
 {
+    double replacementCost;
+
+    cout << "What is the replacement cost of the building?" << endl;
+    cin >> replacementCost;
 }
