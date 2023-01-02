@@ -10,10 +10,20 @@
 
 using namespace std;
 
-int main()
-{
-    double replacementCost;
-
-    cout << "What is the replacement cost of the building?" << endl;
-    cin >> replacementCost;
+int main() {
+  // Ask the user to enter the replacement cost of the building
+  cout << "Enter the replacement cost of the building: ";
+ 
+  // Read the replacement cost from the input
+  double replacementCost;
+  cin >> replacementCost;
+ 
+  // Calculate the minimum amount of insurance the user should buy
+  double insuranceAmount = replacementCost * 0.8;
+ 
+  // Display the minimum amount of insurance the user should buy with 2 decimal points
+  cout << fixed << setprecision(2);
+  cout << "You should buy at least $" << insuranceAmount << " of insurance for your property." << endl;
+ 
+  return 0;
 }
