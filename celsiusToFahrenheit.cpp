@@ -8,4 +8,14 @@ using namespace std;
 
 int main()
 {
+    double tempInC, tempInF;
+
+    cout << "This program converts Celsius temperatures to Fahrenheit temperatures." << endl;
+    cout << "Enter the temperature in Celsius: ";
+    cin >> tempInC;
+
+    tempInF = ((9.0 / 5) * tempInC) + 32;
+    cout << "The temperature in Fahrenheit is: " << tempInF << "°F" << endl;
+
+    return 0;
 }
