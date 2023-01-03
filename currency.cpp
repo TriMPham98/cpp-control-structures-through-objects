@@ -13,4 +13,18 @@ using namespace std;
 
 int main()
 {
+    const double YEN_PER_DOLLAR = 130.19;
+    const double EUROS_PER_DOLLAR = 0.94;
+
+    double userUSD;
+
+    cout << "This program converts USD to Yen and Euros." << endl;
+    cout << "Enter the USD amount: $";
+    cin >> userUSD;
+
+    cout << fixed << setprecision(2);
+    cout << "$" << userUSD << " in Yen is: ¥" << userUSD * YEN_PER_DOLLAR << endl;
+    cout << "$" << userUSD << " in Euro is: €" << userUSD * EUROS_PER_DOLLAR << endl;
+
+    return 0;
 }
