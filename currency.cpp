@@ -5,3 +5,12 @@
 // rates, use the following:
 // 1 Dollar = 98.93 Yen
 // 1 Dollar = 0.74 Euros
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+}
