@@ -6,6 +6,9 @@
 // 1 Dollar = 98.93 Yen
 // 1 Dollar = 0.74 Euros
 
+// Format your currency amounts in fixed-point notation, with two decimal places
+// of precision, and be sure the decimal point is always placed.
+
 #include <iostream>
 #include <iomanip>
 
