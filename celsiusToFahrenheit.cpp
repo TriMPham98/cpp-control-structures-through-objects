@@ -2,3 +2,10 @@
 // The formula is F = [(9/5) * C] + 32
 // F is the Fahrenheit temperature, and C is the Celsius temperature.
 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+}
