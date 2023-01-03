@@ -23,4 +23,22 @@ using namespace std;
 
 int main()
 {
+    string month;
+    int year;
+    double totalCollected, sales, countySalesTax, stateSalesTax, totalSalesTax;
+
+    cout << "Enter the month: ";
+    cin >> month;
+    cout << "Enter the year: ";
+    cin >> year;
+    cout << "Enter the total amount collected at the cash register: ";
+    cin >> totalCollected;
+
+    sales = totalCollected / 1.06;
+    countySalesTax = sales * 0.02;
+    stateSalesTax = sales * 0.04;
+    totalSalesTax = countySalesTax + stateSalesTax;
+
+    cout << fixed << showpoint << setprecision(2);
+    
 }
