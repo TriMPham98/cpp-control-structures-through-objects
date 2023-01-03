@@ -40,5 +40,13 @@ int main()
     totalSalesTax = countySalesTax + stateSalesTax;
 
     cout << fixed << showpoint << setprecision(2);
+    cout << "Month: " << month << endl;
+    cout << "-------------------------" << endl;
+    cout << "Total Collected: $" << setw(10) << totalCollected << endl;
+    cout << "Sales: $" << setw(10) << sales << endl;
+    cout << "County Sales Tax: $" << setw(10) << countySalesTax << endl;
+    cout << "State Sales Tax: $" << setw(10) << stateSalesTax << endl;
+    cout << "Total Sales Tax: $" << setw(10) << totalSalesTax << endl;
 
+    return 0;
 }
