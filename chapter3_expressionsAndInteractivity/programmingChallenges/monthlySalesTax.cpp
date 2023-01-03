@@ -27,4 +27,11 @@ int main()
     int year;
     double totalCollected, sales, countySalesTax, stateSalesTax, totalSalesTax;
 
+    cout << "Enter the month: ";
+    cin >> month;
+    cout << "Enter the year: ";
+    cin >> year;
+    cout << "Enter the total amount collected at the cash register: ";
+    cin >> totalCollected;
+
 }
