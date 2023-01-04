@@ -10,3 +10,11 @@
 // property tax a senior homeowner will be charged for this property, and what
 // the quarterly tax bill will be.
 
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+}
