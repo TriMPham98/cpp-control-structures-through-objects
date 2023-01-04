@@ -13,4 +13,6 @@ using namespace std;
 int main()
 {
     double actualValue, assessmentValue, propertyTax;
+
+    cout << "Enter the actual value of a piece of property: ";
 }
