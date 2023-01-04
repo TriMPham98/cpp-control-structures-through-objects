@@ -17,4 +17,7 @@ using namespace std;
 
 int main()
 {
+    // Declare variables
+    double propertyValue, taxRate, assessmentValue, annualTax, quarterlyTax;
+
 }
