@@ -20,4 +20,11 @@ int main()
     // Declare variables
     double propertyValue, taxRate, assessmentValue, annualTax, quarterlyTax;
 
+    // Get property value and tax rate
+    cout << "Enter the actual value of a piece of property: ";
+    cin >> propertyValue;
+    cout << "Enter the current tax rate for each $100 of assessed value: ";
+    cin >> taxRate;
+
+
 }
