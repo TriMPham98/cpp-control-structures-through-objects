@@ -12,4 +12,5 @@ using namespace std;
 
 int main()
 {
+    double actualValue, assessmentValue, propertyTax;
 }
