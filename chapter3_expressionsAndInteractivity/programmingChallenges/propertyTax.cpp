@@ -15,4 +15,9 @@ int main()
     double actualValue, assessmentValue, propertyTax;
 
     cout << "Enter the actual value of a piece of property: ";
+    cin >> actualValue;
+
+    assessmentValue = actualValue * 0.6;
+    propertyTax = assessmentValue * 0.75 / 100;
+    
 }
