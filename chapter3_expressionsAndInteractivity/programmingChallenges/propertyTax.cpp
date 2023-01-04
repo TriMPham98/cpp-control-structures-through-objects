@@ -19,5 +19,10 @@ int main()
 
     assessmentValue = actualValue * 0.6;
     propertyTax = assessmentValue * 0.75 / 100;
-    
+
+    cout << "The assessment value is $" << assessmentValue << endl;
+    cout << "The property tax is $" << propertyTax << endl;
+
+    return 0;
+
 }
