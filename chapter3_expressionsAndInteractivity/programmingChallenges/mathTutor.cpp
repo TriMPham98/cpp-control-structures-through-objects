@@ -1,4 +1,4 @@
-// Write a program that can be used as a math tutor for a young student. 
+// Write a program that can be used as a math tutor for a young student.
 // The program should display two random numbers to be added, such as:
 // 247
 // 129
@@ -11,3 +11,10 @@
 // ----
 // 376
 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+}
