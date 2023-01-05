@@ -17,9 +17,31 @@
 
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 
 using namespace std;
 
-int main()
-{
+int main() {
+  double principal;
+  cout << "Enter the principal: ";
+  cin >> principal;
+
+  double rate;
+  cout << "Enter the annual interest rate: ";
+  cin >> rate;
+
+  int times_compounded;
+  cout << "Enter the number of times the interest is compounded: ";
+  cin >> times_compounded;
+
+  double amount = principal * pow(1 + rate/times_compounded, times_compounded * 1);
+  double interest = amount - principal;
+
+  cout << fixed << setprecision(2);
+  cout << "Interest Rate: " << rate << "%" << endl;
+  cout << "Times Compounded: " << times_compounded << endl;
+  cout << "Principal: $" << principal << endl;
+  cout << "Interest: $" << interest << endl;
+  cout << "Amount in Savings: $" << amount << endl;
+  return 0;
 }
