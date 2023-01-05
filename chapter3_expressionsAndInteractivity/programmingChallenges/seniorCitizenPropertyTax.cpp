@@ -26,5 +26,8 @@ int main()
     cout << "Enter the current tax rate for each $100 of assessed value: ";
     cin >> taxRate;
 
+    // Calculate assessment value
+    assessmentValue = propertyValue - 5000;
 
+    
 }
