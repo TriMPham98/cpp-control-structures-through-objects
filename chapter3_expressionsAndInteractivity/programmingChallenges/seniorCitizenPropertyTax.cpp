@@ -35,5 +35,10 @@ int main()
     // Calculate quarterly tax
     quarterlyTax = annualTax / 4;
 
-    
+    // Display results
+    cout << fixed << showpoint << setprecision(2);
+    cout << "The annual property tax is $" << annualTax << endl;
+    cout << "The quarterly property tax is $" << quarterlyTax << endl;
+
+    return 0;
 }
