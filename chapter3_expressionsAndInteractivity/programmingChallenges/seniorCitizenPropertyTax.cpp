@@ -29,5 +29,11 @@ int main()
     // Calculate assessment value
     assessmentValue = propertyValue - 5000;
 
+    // Calculate annual tax
+    annualTax = (assessmentValue / 100) * taxRate;
+
+    // Calculate quarterly tax
+    quarterlyTax = annualTax / 4;
+
     
 }
