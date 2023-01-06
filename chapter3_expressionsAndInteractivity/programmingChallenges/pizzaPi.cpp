@@ -13,6 +13,7 @@
 // is the radius of the pizza. Divide the diameter by 2 to get the radius.
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
