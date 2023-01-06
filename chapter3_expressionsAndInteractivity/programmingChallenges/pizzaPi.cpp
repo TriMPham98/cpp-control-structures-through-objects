@@ -19,5 +19,19 @@ using namespace std;
 
 int main()
 {
-    
+    // A) Ask the user for the diameter of the pizza in inches.
+    double diameter;
+    cout << "Enter the diameter of the pizza in inches: ";
+    cin >> diameter;
+
+    // B) Calculate the number of slices that may be taken from a pizza of that size.
+    const double PI = 3.14159;
+    double radius = diameter / 2;
+    double area = PI * pow(radius, 2);
+    int numSlices = area / 14.125;
+
+    // C) Display a message telling the number of slices.
+    cout << "The number of slices that can be taken from this pizza is: " << numSlices << endl;
+
+    return 0;
 }
