@@ -21,4 +21,10 @@ int main()
     double pizzaDiameter;
     cout << "Enter the diameter of the pizzas to be ordered in inches: ";
     cin >> pizzaDiameter;
+
+    // C) Calculate the number of slices per pizza.
+    const double PI = 3.14159;
+    double radius = pizzaDiameter / 2;
+    double area = PI * pow(radius, 2);
+    int numSlicesPerPizza = area / 14.125;
 }
