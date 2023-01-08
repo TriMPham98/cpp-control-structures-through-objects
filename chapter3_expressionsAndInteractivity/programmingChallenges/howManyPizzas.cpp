@@ -12,4 +12,8 @@ using namespace std;
 
 int main()
 {
+    // A) Ask the user for the number of people attending the party.
+    int numPeople;
+    cout << "Enter the number of people attending the party: ";
+    cin >> numPeople;
 }
