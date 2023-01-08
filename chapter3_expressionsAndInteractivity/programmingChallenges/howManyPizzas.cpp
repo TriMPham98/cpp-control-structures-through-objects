@@ -16,4 +16,9 @@ int main()
     int numPeople;
     cout << "Enter the number of people attending the party: ";
     cin >> numPeople;
+
+    // B) Ask the user for the diameter of the pizzas to be ordered.
+    double pizzaDiameter;
+    cout << "Enter the diameter of the pizzas to be ordered in inches: ";
+    cin >> pizzaDiameter;
 }
