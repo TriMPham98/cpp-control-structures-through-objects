@@ -27,4 +27,7 @@ int main()
     double radius = pizzaDiameter / 2;
     double area = PI * pow(radius, 2);
     int numSlicesPerPizza = area / 14.125;
+
+    // D) Calculate the total number of slices needed for the party.
+    int numSlicesNeeded = numPeople * 4;
 }
