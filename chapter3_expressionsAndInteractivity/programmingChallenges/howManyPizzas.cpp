@@ -30,4 +30,12 @@ int main()
 
     // D) Calculate the total number of slices needed for the party.
     int numSlicesNeeded = numPeople * 4;
+
+    // E) Calculate the number of pizzas needed for the party.
+    int numPizzas = ceil(numSlicesNeeded / (double)numSlicesPerPizza);
+
+    // F) Display a message telling the number of pizzas to purchase.
+    cout << "You need to purchase " << numPizzas << " pizzas for the party." << endl;
+
+    return 0;
 }
