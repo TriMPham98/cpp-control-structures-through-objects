@@ -6,5 +6,6 @@ using namespace std;
 
 int main()
 {
-    
+    bool trueValue, falseValue;
+    int x = 5, y = 10;
 }
