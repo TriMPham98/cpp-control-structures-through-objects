@@ -14,4 +14,9 @@ int main()
     // Get the three test scores.
     cout << "Enter 3 test scores and I will average them: ";
     cin >> score1 >> score2 >> score3;
+
+    // Calculate and display the average score.
+    average = (score1 + score2 + score3) / 3.0;
+    cout << fixed << showpoint << setprecision(1);
+    cout << "Your average is " << average << endl;
 }
