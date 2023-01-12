@@ -18,3 +18,5 @@
 // - The amount of space used by an end-post assembly, in feet
 // - The amount of space between the vines, in feet
 
+// Once the input data has been entered, the program should calculate and display
+// the number of grapevines that will fit in the row.
