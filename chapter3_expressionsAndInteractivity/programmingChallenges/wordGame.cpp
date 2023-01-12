@@ -23,4 +23,20 @@ int main()
 {
     string name, city, college, profession, animal, petName;
     int age;
+
+    cout << "Enter your name: ";
+    getline(cin, name);
+    cout << "Enter your age: ";
+    cin >> age;
+    cout << "Enter the name of a city: ";
+    cin.ignore();
+    getline(cin, city);
+    cout << "Enter the name of a college: ";
+    getline(cin, college);
+    cout << "Enter a profession: ";
+    getline(cin, profession);
+    cout << "Enter a type of animal: ";
+    getline(cin, animal);
+    cout << "Enter a pet's name: ";
+    getline(cin, petName);
 }
