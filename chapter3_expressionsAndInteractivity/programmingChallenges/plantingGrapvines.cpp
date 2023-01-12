@@ -28,4 +28,11 @@ using namespace std;
 int main()
 {
     double V, R, E, S;
+
+    cout << "Enter the length of the row in feet: ";
+    cin >> R;
+    cout << "Enter the amount of space used by an end-post assembly in feet: ";
+    cin >> E;
+    cout << "Enter the amount of space between the vines in feet: ";
+    cin >> S;
 }
