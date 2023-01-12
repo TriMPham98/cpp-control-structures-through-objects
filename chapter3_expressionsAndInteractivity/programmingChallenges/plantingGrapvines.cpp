@@ -35,4 +35,10 @@ int main()
     cin >> E;
     cout << "Enter the amount of space between the vines in feet: ";
     cin >> S;
+
+    V = (R - 2 * E) / S;
+
+    cout << "The number of grapevines that will fit in the row is: " << V << endl;
+
+    return 0;
 }
