@@ -11,3 +11,10 @@
 // R is the length of the row, in feet. 
 // E is the amount of space, in feet, used by an end-post assembly.
 // S is the space between vines, in feet.
+
+// Write a program that makes the calculation for the vineyard owner. The program
+// should ask the user to input the following:
+// - The length of the row, in feet
+// - The amount of space used by an end-post assembly, in feet
+// - The amount of space between the vines, in feet
+
