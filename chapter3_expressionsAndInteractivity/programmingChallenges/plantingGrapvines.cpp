@@ -27,5 +27,5 @@ using namespace std;
 
 int main()
 {
-    
+    double V, R, E, S;
 }
