@@ -39,4 +39,12 @@ int main()
     getline(cin, animal);
     cout << "Enter a pet's name: ";
     getline(cin, petName);
+
+    cout << "There once was a person named " << name << " who lived in a " << city << "." << endl;
+    cout << "At the age of " << age << ", " << name << " went to college at " << college << "." << endl;
+    cout << name << " graduated and went to work as a " << profession << "." << endl;
+    cout << "Then, " << name << " adopted a(n) " << animal << " named " << petName << "." << endl;
+    cout << "They both lived happily ever after!" << endl;
+
+    return 0;
 }
