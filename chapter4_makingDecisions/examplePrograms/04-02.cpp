@@ -19,4 +19,12 @@ int main()
     average = (score1 + score2 + score3) / 3.0;
     cout << fixed << showpoint << setprecision(1);
     cout << "Your average is " << average << endl;
+
+    // If the average is a high score, congratulate the user.
+    if (average > HIGH_SCORE)
+    {
+        cout << "Congratulations! That's a high score!" << endl;
+    }
+
+    return 0;
 }
