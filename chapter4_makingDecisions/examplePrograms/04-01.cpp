@@ -14,4 +14,6 @@ int main()
 
     cout << "True is " << trueValue << endl;
     cout << "False is " << falseValue << endl;
+
+    return 0;
 }
