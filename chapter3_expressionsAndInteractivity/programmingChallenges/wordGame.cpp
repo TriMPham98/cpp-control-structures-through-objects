@@ -21,4 +21,6 @@ using namespace std;
 
 int main()
 {
+    string name, city, college, profession, animal, petName;
+    int age;
 }
