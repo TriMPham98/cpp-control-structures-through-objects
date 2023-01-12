@@ -30,5 +30,23 @@ using namespace std;
 
 int main()
 {
-    
+    int numShares = 1000;
+    float buyPrice = 45.50;
+    float sellPrice = 56.90;
+    float commissionRate = 0.02;
+
+    float amountPaid = numShares * buyPrice;
+    float commissionPaidBuy = amountPaid * commissionRate;
+    float amountSold = numShares * sellPrice;
+    float commissionPaidSell = amountSold * commissionRate;
+    float profit = amountSold - amountPaid - commissionPaidBuy - commissionPaidSell;
+
+    cout << fixed << setprecision(2);
+    cout << "Amount paid for the stock: $" << amountPaid << endl;
+    cout << "Commission paid when buying: $" << commissionPaidBuy << endl;
+    cout << "Amount sold for: $" << amountSold << endl;
+    cout << "Commission paid when selling: $" << commissionPaidSell << endl;
+    cout << "Profit made: $" << profit << endl;
+
+    return 0;
 }
