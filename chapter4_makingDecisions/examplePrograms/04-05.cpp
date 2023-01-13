@@ -20,5 +20,12 @@ int main()
     cout << fixed << showpoint << setprecision(1);
     cout << "Your average is " << average << endl;
 
-    
+    // Our intention is to congratulate the user for having a perfect score.
+    // But, this doesn't work.
+    if (average = 100)
+    {
+        cout << "Congratulations! That's a perfect score!" << endl;
+    }
+
+    return 0;
 }
