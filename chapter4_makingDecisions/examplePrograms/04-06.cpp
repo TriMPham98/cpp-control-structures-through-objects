@@ -21,5 +21,13 @@ int main()
     cout << fixed << showpoint << setprecision(1);
     cout << "Your average is " << average << endl;
 
-    
+    // If the average is high, congratulate the user.
+    if (average > HIGH_SCORE)
+    {
+        cout << "Congratulations!" << endl;
+        cout << "That's a high score." << endl;
+        cout << "You deserve a pat on the back!" << endl;
+    }
+
+    return 0;
 }
