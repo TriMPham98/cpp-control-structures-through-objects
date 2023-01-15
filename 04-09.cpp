@@ -16,5 +16,19 @@ int main()
 
     // Get the second number.
     cout << "Enter another number: ";
-    cin >> num2; 
+    cin >> num2;
+
+    // If num2 is not zero, perform the division
+    if (num2 == 0)
+    {
+        cout << "Division by zero is not possible." << endl;
+        cout << "Please run the program again and enter a number other than 0." << endl;
+    }
+    else
+    {
+        quotient = num1 / num2;
+        cout << "The quotient of " << num1 << " divided by " << num2 << " is " << quotient << endl;
+    }
+
+    return 0;
 }
