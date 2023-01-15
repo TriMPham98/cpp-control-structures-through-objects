@@ -9,4 +9,12 @@ using namespace std;
 int main()
 {
     double num1, num2, quotient;
+
+    // Get the first number.
+    cout << "Enter a number: ";
+    cin >> num1;
+
+    // Get the second number.
+    cout << "Enter another number: ";
+    cin >> num2; 
 }
