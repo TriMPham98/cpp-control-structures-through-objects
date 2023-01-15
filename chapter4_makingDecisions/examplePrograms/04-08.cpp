@@ -9,4 +9,9 @@ using namespace std;
 int main()
 {
     int number;
+
+    cout << "Enter an integer and I will tell you if it is odd or even." << endl;
+    cin >> number;
+
+    
 }
