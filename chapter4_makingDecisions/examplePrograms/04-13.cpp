@@ -18,4 +18,28 @@ int main()
     // Get the numeric test score.
     cout << "Enter your numeric test score and I will tell you the letter grade you earned: ";
     cin >> testScore;
+
+    // Determine the letter grade.
+    if (testScore >= A_SCORE)
+    {
+        cout << "Your grade is A." << endl;
+    }
+    else if (testScore >= B_SCORE)
+    {
+        cout << "Your grade is B." << endl;
+    }
+    else if (testScore >= C_SCORE)
+    {
+        cout << "Your grade is C." << endl;
+    }
+    else if (testScore >= D_SCORE)
+    {
+        cout << "Your grade is D." << endl;
+    }
+    else
+    {
+        cout << "Your grade is F." << endl;
+    }
+
+    return 0;
 }
