@@ -14,4 +14,10 @@ int main()
               D_SCORE = 60;
 
     int testScore; // To hold a numeric test score
+
+    // Get the numeric test score.
+    cout << "Enter your numeric test score and I will tell you the letter grade you earned: ";
+    cin >> testScore;
+
+    
 }
