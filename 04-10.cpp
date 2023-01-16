@@ -15,4 +15,15 @@ int main()
     cin >> employed;
     cout << "Have you graduated from college in the past two years? ";
     cin >> recentGrad;
+
+    // Determine the user's loan qualifications.
+    if (employed == 'Y')
+    {
+        if (recentGrad == 'Y') // Nested if
+        {
+            cout << "You qualify for the special interest rate." << endl;
+        }
+    }
+
+    return 0;
 }
