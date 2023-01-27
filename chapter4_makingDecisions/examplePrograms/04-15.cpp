@@ -16,4 +16,16 @@ int main()
 
     cout << "Have you graduated from college in the past two years? ";
     cin >> recentGrad;
+
+    // Determine the user's loan qualifications.
+    if (employed == 'Y' && recentGrad == 'Y')
+    {
+        cout << "You qualify for the special interest rate." << endl;
+    }
+    else
+    {
+        cout << "You must be employed and have graduated from college in the past two years to qualify." << endl;
+    }
+
+    return 0;
 }
