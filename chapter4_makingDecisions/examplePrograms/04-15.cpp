@@ -13,4 +13,7 @@ int main()
     cout << "Answer the following questions with either Y for Yes or N for No." << endl;
     cout << "Are you employed? ";
     cin >> employed;
+
+    cout << "Have you graduated from college in the past two years? ";
+    cin >> recentGrad;
 }
