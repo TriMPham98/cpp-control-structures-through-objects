@@ -12,4 +12,12 @@ int main()
 
     double income; // Annual income
     int years;     // Years at the current job
+
+    // Get the annual income
+    cout << "What is your annual income? ";
+    cin >> income;
+
+    // Get the number of years at the current job.
+    cout << "How many years have you worked at your current job? ";
+    cin >> years;
 }
