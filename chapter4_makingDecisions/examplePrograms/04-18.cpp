@@ -34,4 +34,13 @@ int main()
 
     // Set the numeric output formatting.
     cout << fixed << showpoint << setprecision(2);
+
+    // Respond to the user's menu selection.
+    if (choice == ADULT_CHOICE)
+    {
+        cout << "For how many months? ";
+        cin >> months;
+        charges = months * ADULT;
+        cout << "The total charges are $" << charges << endl;
+    }
 }
