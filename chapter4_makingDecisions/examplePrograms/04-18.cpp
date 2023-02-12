@@ -22,4 +22,13 @@ int main()
               CHILD_CHOICE = 2,
               SENIOR_CHOICE = 3,
               QUIT_CHOICE = 4;
+
+    // Display the menu and get a choice.
+    cout << "\t\tHealth Club Membership Menu\n\n";
+    cout << "1. Standard Adult Membership\n";
+    cout << "2. Child Membership\n";
+    cout << "3. Senior Citizen Membership\n";
+    cout << "4. Quit the Program\n\n";
+    cout << "Enter your choice: ";
+    cin >> choice;
 }
