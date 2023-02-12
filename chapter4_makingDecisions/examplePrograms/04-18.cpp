@@ -31,4 +31,7 @@ int main()
     cout << "4. Quit the Program\n\n";
     cout << "Enter your choice: ";
     cin >> choice;
+
+    // Set the numeric output formatting.
+    cout << fixed << showpoint << setprecision(2);
 }
