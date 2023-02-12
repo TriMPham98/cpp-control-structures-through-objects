@@ -57,4 +57,8 @@ int main()
         charges = months * SENIOR;
         cout << "The total charges are $" << charges << endl;
     }
+    else if (choice == QUIT_CHOICE)
+    {
+        cout << "Program ending.\n";
+    }
 }
