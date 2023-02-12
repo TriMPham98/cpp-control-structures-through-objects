@@ -65,4 +65,6 @@ int main()
     {
         cout << "The valid choices are 1 through 4. Run the program again and select one of those." << endl;
     }
+
+    return 0;
 }
