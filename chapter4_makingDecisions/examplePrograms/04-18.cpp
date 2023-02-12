@@ -16,4 +16,10 @@ int main()
     const double ADULT = 40.0,
                  SENIOR = 30.0,
                  CHILD = 20.0;
+
+    // Constant for menu choices
+    const int ADULT_CHOICE = 1,
+              CHILD_CHOICE = 2,
+              SENIOR_CHOICE = 3,
+              QUIT_CHOICE = 4;
 }
