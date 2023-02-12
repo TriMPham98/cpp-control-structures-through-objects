@@ -50,4 +50,11 @@ int main()
         charges = months * CHILD;
         cout << "The total charges are $" << charges << endl;
     }
+    else if (choice == SENIOR_CHOICE)
+    {
+        cout << "For how many months? ";
+        cin >> months;
+        charges = months * SENIOR;
+        cout << "The total charges are $" << charges << endl;
+    }
 }
