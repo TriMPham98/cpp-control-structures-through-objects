@@ -11,5 +11,9 @@ int main()
     int choice;     // To hold a menu choice
     int months;     // To hold the number of months
     double charges; // To hold the monthly charges
-    
+
+    // Constants for membership rates
+    const double ADULT = 40.0,
+                 SENIOR = 30.0,
+                 CHILD = 20.0;
 }
